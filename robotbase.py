@@ -58,7 +58,7 @@ class RobotBase():
 
         try:
             robot.startCompetition()
-        except KeyboardInterrupt
+        except KeyboardInterrupt:
             logger.exception(
                 "THIS IS NOT AN ERROR: The user hit CTRL-C to kill the robot"
             )
